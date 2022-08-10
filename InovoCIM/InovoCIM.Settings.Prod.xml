@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings>
+	<File>
+		<FTP>C:\inovo\OmniCIM_Input\</FTP>
+		<Input>C:\0.InovoFileProd\1.Working\</Input>
+		<Output>C:\0.InovoFileProd\2.FileLogs\</Output>
+		<Complete>C:\0.InovoFileProd\3.Completed\</Complete>
+	</File>
+	<Database>
+    <dbInovoCIM>Data Source=172.18.101.84\INST02;Initial Catalog=TenacityCIM_QA_P4;User Id=INOVOCIM;Password=S0lv1tNT;</dbInovoCIM>
+    <dbPresence>Data Source=172.18.101.36\DEV01;Initial Catalog=SQLPR1_DEV;User Id=PREP;Password=PREP;</dbPresence>
+  </Database>
+	<EmailInternal>
+		<Display>Tenacity Production</Display>
+		<From>inovocim@tenacity.co.za</From>
+		<Server>172.18.101.44</Server>
+		<Port>25</Port>
+		<Username>omni@ten.local</Username>
+		<Password>g8rF1eld</Password>
+	</EmailInternal>
+	<EmailExternal>
+		<Display>Tenacity Accounts</Display>
+		<From>accounts2@tenacityinc.co.za</From>
+		<Server>172.18.101.44</Server>
+		<Port>25</Port>
+		<Username>accounts2@ten.local</Username>
+		<Password>g8rF1eld</Password>
+	</EmailExternal>
+	<Reports>
+		<Email>jbrimble@inovo.co.za</Email>
+		<Email>omiles@inovo.co.za</Email>
+		<Email>jkuhn@inovo.co.za</Email>
+		<Email>cbouwer@inovo.co.za</Email>
+		<Email>MARCELIJ@tenacityinc.co.za</Email>
+		<Email>JONATHAG@tenacityinc.co.za</Email>
+		<Email>WILLIAMA@tenacityinc.co.za</Email>
+		<Email>GERHARDL@tenacityinc.co.za</Email>
+		<Email>kobusk@pepkorit.com</Email>
+		<Email>diallersupport@tenacityinc.co.za</Email>
+		<Email>TENIT@tenacityinc.co.za</Email>
+		<Email>ServiceDesk@tenacityinc.co.za</Email>
+		<Email>AUDREYR@tenacityinc.co.za</Email>
+		<Email>ZANEM@tenacityinc.co.za</Email>
+	</Reports>
+	<Errors>
+		<Email>jbrimble@inovo.co.za</Email>
+		<Email>omiles@inovo.co.za</Email>
+		<Email>jkuhn@inovo.co.za</Email>
+		<Email>cbouwer@inovo.co.za</Email>
+	</Errors>
+	<Monitor>
+		<Email>jbrimble@inovo.co.za</Email>
+		<Email>omiles@inovo.co.za</Email>
+		<Email>jkuhn@inovo.co.za</Email>
+		<Email>cbouwer@inovo.co.za</Email>
+		<Email>MARCELIJ@tenacityinc.co.za</Email>
+		<Email>JONATHAG@tenacityinc.co.za</Email>
+		<Email>WILLIAMA@tenacityinc.co.za</Email>
+		<Email>GERHARDL@tenacityinc.co.za</Email>
+		<Email>kobusk@pepkorit.com</Email>
+		<Email>diallersupport@tenacityinc.co.za</Email>
+		<Email>TENIT@tenacityinc.co.za</Email>
+		<Email>ServiceDesk@tenacityinc.co.za</Email>
+		<Email>AUDREYR@tenacityinc.co.za</Email>
+		<Email>ZANEM@tenacityinc.co.za</Email>
+	</Monitor>
+	<Integration>
+		<RestURL>https://ten2.pdws.co.za/JSON_Req</RestURL>
+		<APIKey>33E5F1F1-6EC5-4791-817E-8B97A7601F2C</APIKey>
+	</Integration>
+	<Triggers>
+		<Incompletes>5</Incompletes>
+		<InvalidGeneric>5</InvalidGeneric>
+	</Triggers>
+	<ExcludeService>
+		<Services>(50,51,52,53,54,55,990)</Services>
+	</ExcludeService>
+</Settings>
